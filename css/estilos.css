@@ -2,15 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
   }
   
   body {
-    background-color: rgb(241, 230, 214);
+    background-color:whitesmoke;
     font-size: 12px;
-    font-family: 'Comfortaa', cursive;
     color:black;
-    text-align: justify; 
-    align-content: center;
+    text-align: justify;  
     }
   
   @media (min-width: 400px) {
@@ -51,7 +50,6 @@
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    font-family: 'Comfortaa', cursive;
     transition: background-color 1s, color 1s;
   }
   .container a:active,
@@ -63,7 +61,6 @@
     color: rgb(19, 18, 18);
     text-align: center;
     font-size: 3em;
-    font-family: 'Bad Script', cursive;
     }
   
   .site-subtitle {
@@ -72,7 +69,6 @@
     font-weight: lighter;
     text-align: center;
     font-size: 1,5em;
-    font-family: 'Bad Script', cursive;
   }
   .titles {
     border: 4px solid rgb(122, 122, 121);
@@ -102,13 +98,19 @@
   }
   h3{
       text-align: left;
-      background-color: aqua;
+      line-height: 50px;
   }
   p{
       text-align: justify;
-      background-color: blue;
-  }
-.formação{
-      list-style-type: circle;
-  }
-  
+     }
+.competencias, .formação, .cursos, .idioma, .carreira{
+    padding: 0 45px;
+    border-bottom: 2px;
+    margin-top: 30px;
+}
+.empresa{
+    padding: 0 45px;
+    border-bottom: 2px;
+    margin-top: 20px;
+margin-bottom: 20px;
+}
